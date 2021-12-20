@@ -5,7 +5,7 @@ import { PrismaAdapter } from "@next-auth/prisma-adapter";
 
 import { verifyPassword, hashPassword } from "@lib/auth/passwords";
 import { Session } from "@lib/auth/session";
-import prisma from "@db/index";
+import prisma from "@prisma";
 
 export default NextAuth({
   adapter: PrismaAdapter(prisma),

@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import nc from "next-connect";
 import { hashPassword } from "@lib/auth/passwords";
-import prisma from "@db";
+import prisma from "@prisma";
 
 const post = async (req: NextApiRequest, res: NextApiResponse) => {
   try {

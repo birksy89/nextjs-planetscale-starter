@@ -8,8 +8,8 @@
       "@lib/*": ["lib/*"],
       "@components/*": ["lib/components/*"],
       "@components": ["lib/components/index"],
-      "@db/*": ["db/*"],
-      "@db": ["db/index"]
+      "@prisma/*": ["prisma/*"],
+      "@prisma": ["prisma/index"]
     },
     "allowJs": true,
     "skipLibCheck": true,

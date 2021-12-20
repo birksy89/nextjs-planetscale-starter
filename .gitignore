@@ -42,6 +42,4 @@ yarn-error.log*
 .idea
 .vscode
 
-# Local Netlify folder
-.netlify
-db/dev.db
+prisma/dev.db
