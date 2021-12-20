@@ -43,3 +43,4 @@ yarn-error.log*
 .vscode
 
 prisma/dev.db
+prisma/dev.db-journal
