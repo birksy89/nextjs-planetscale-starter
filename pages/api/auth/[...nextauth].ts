@@ -4,14 +4,15 @@ import GitHubProvider from "next-auth/providers/github";
 import { PrismaAdapter } from "@next-auth/prisma-adapter";
 
 import { verifyPassword, hashPassword } from "@lib/auth/passwords";
+// import { Session } from "@lib/auth/session";
+import prisma from "@db";
 import { Session } from "@lib/auth/session";
-import prisma from "@prisma";
 
 export default NextAuth({
   adapter: PrismaAdapter(prisma),
   secret: process.env.NEXTAUTH_SECRET,
   session: {
-    jwt: true,
+    strategy: "jwt",
   },
   pages: {
     signIn: "/sign-in",
