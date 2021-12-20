@@ -1,9 +1,8 @@
+import prisma from "@db";
 import { NextApiRequest, NextApiResponse } from "next";
 import { getSession } from "next-auth/react";
 
 import nc from "next-connect";
-
-import prisma from "@db";
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   const session = await getSession({ req });

@@ -1,4 +1,4 @@
-import AppLayout from "@lib/components/Layouts/AppLayout";
+import AppLayout from "@components/Layouts/AppLayout";
 import { useSession, signIn } from "next-auth/react";
 import { useQuery } from "react-query";
 import superagent from "superagent";

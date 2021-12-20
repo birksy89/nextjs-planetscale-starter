@@ -4,11 +4,8 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "baseUrl": ".",
     "paths": {
-      "@api/*": ["pages/api/*"],
       "@lib/*": ["lib/*"],
-      "@components/*": ["lib/components/*"],
-      "@components": ["lib/components/index"],
-      "@db/*": ["prisma/*"],
+      "@components/*": ["components/*"],
       "@db": ["prisma/index"]
     },
     "allowJs": true,

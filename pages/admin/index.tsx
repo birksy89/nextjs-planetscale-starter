@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import { ChevronRightIcon } from "@heroicons/react/solid";
 import { GetServerSidePropsContext } from "next";
 import classNames from "classnames";
-import AdminLayout from "@lib/components/Layouts/AdminLayout";
+import AdminLayout from "@components/Layouts/AdminLayout";
 import { getSession } from "@lib/auth/session";
 import superagent from "superagent";
 

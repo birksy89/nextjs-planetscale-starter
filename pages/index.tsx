@@ -1,5 +1,5 @@
-import AppLayout from "@lib/components/Layouts/AppLayout";
-import Image from 'next/image';
+import AppLayout from "@components/Layouts/AppLayout";
+import Image from "next/image";
 
 const Page = () => {
   return (
@@ -13,9 +13,14 @@ const Page = () => {
           authentication with PlanetScale and Prisma.
         </p>
         <blockquote>
-          <p>  
+          <p>
             You can find how to get started{" "}
-            <a href={`https://github.com/planetscale/nextjs-planetscale-starter`}>here</a>.
+            <a
+              href={`https://github.com/planetscale/nextjs-planetscale-starter`}
+            >
+              here
+            </a>
+            .
           </p>
         </blockquote>
       </AppLayout>
